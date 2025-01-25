@@ -126,8 +126,9 @@ footer p {
 }
 
 .sociallinks img {
-  width: 40px;
-  height: auto;
+  width: 40px; /* Consistent width for all social media icons */
+  height: 40px; /* Ensure height matches width for a square logo */
+  object-fit: contain;
 }
 
 @media (max-width: 768px) {
