@@ -89,14 +89,15 @@ aside {
 
 }
 aside img {
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the exact positioning */
     color: white;
     font-size: 2rem;
     font-weight: bold;
