@@ -95,7 +95,7 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 50%; /* Center vertically */
+    top: 25%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust the exact positioning */
     color: white;
