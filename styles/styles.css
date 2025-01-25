@@ -83,6 +83,7 @@ p {
 /* Aside Styles */
 aside {
     width: 20rem;
+    margin: 1rem auto;
     text-align: center;
 
 }
