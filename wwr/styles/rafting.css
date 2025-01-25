@@ -1,7 +1,9 @@
 :root {
-  --primary-color: #3498db;
-  --secondary-color: #2ecc71;
-  --accent-color: #f39c12;
+  --primary-color: #00A6C3;
+  --secondary-color: #047699;
+  --accent1-color: #1C455D;
+  --accent2-color: #E2CC5A;
+  --neutral-color: #3A3F3A;
   --font-primary: 'Merriweather', serif;
   --font-secondary: 'Roboto', sans-serif;
 }
@@ -10,8 +12,8 @@ body {
   font-family: var(--font-secondary), sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: var(--neutral-color);
+  color: white;
 }
 
 header {
@@ -37,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--secondary-color);
+  color: var(--accent2-color);
 }
 
 .hero {
@@ -69,6 +71,7 @@ nav a:hover {
 article {
   padding: 40px 30px;
   background-color: white;
+  color: var(--neutral-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: -60px;
   z-index: 1;
@@ -86,12 +89,12 @@ section h2 {
   font-family: var(--font-primary), serif;
   font-size: 2.5rem;
   margin-top: 40px;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 section {
   padding: 30px;
-  background-color: #f9f9f9;
+  background-color: var(--accent1-color);
   margin: 20px 0;
   border-radius: 10px;
 }
@@ -116,8 +119,14 @@ footer p {
   font-size: 1.2rem;
 }
 
+.sociallinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
 .sociallinks a {
-  margin: 0 15px;
   transition: transform 0.3s ease;
 }
 
@@ -126,9 +135,10 @@ footer p {
 }
 
 .sociallinks img {
-  width: 40px; /* Consistent width for all social media icons */
-  height: 40px; /* Ensure height matches width for a square logo */
+  width: 40px; /* Same size for all icons */
+  height: 40px;
   object-fit: contain;
+  filter: brightness(0) invert(1); /* Makes icons white */
 }
 
 @media (max-width: 768px) {
