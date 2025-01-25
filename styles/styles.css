@@ -60,15 +60,20 @@ p {
     text-align: justify;
 }
 
+/* Box Class */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
 /* Aside Styles */
 aside {
     width: 20rem;
-    margin: 1rem auto;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+
 }
 aside img {
     width: 200px;
