@@ -45,7 +45,10 @@ main {
 
 /* Paragraph Styles */
 p {
+    width: 60%;  /* Adjust width as needed */
+    margin: 10px auto;  /* Centers the paragraph */
     padding: 10px;
+    text-align: justify; /* Optional: Justifies the text */
 }
 
 /* Aside Styles */
