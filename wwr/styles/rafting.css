@@ -45,6 +45,7 @@ nav a {
   text-transform: uppercase;
   color: white;
   transition: color 0.3s ease;
+  align-items: center;
 }
 
 nav a:hover {
@@ -149,6 +150,7 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   text-align: center;
+  align-items: center;
   max-width: 840px;
   margin: 0 auto;
 }
@@ -207,11 +209,12 @@ aside {
 
   header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
 
   nav a {
     margin: 10px 0;
+    align-items: center;
   }
 
   .rafting-gallery img {
