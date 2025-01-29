@@ -47,10 +47,10 @@ nav a:hover {
   position: relative;
   width: 100%;
   height: 60vh;
-  background-image: url('images/hero.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -61,12 +61,29 @@ nav a:hover {
 .hero h1 {
   font-size: 4rem;
   font-family: var(--font-primary), serif;
-  transform: translateY(-20%);
-  transition: transform 0.3s ease-out;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.hero:hover h1 {
-  transform: translateY(0%);
+.hero article {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  width: 60%;
+  transform: translateX(-50%);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  color: var(--accent1-color);
+}
+
+.hero article img {
+  float: right;
+  margin-left: 15px;
+  border-radius: 8px;
 }
 
 /* CONTENT SECTIONS */
@@ -74,16 +91,6 @@ article {
   padding: 40px 30px;
   background-color: white;
   color: var(--accent1-color);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: -60px;
-  z-index: 1;
-  position: relative;
-}
-
-article img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -102,21 +109,12 @@ section {
   border-radius: 10px;
 }
 
-section img {
-  margin-top: 20px;
-  max-width: 100%;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 /* RAFTING IMAGES */
 .rafting-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   padding: 30px;
-  justify-content: center;
-  align-items: center;
 }
 
 .rafting-gallery img {
@@ -133,11 +131,9 @@ footer {
   background-color: var(--secondary-color);
   color: white;
   text-align: center;
-  position: relative;
 }
 
 footer p {
-  margin-top: 20px;
   font-size: 1.2rem;
 }
 
@@ -150,6 +146,7 @@ footer p {
 }
 
 .sociallinks a {
+  text-decoration: none;
   transition: transform 0.3s ease;
 }
 
@@ -160,7 +157,6 @@ footer p {
 .sociallinks img {
   width: 40px;
   height: 40px;
-  object-fit: contain;
   filter: brightness(0) invert(1);
 }
 
@@ -177,9 +173,5 @@ footer p {
 
   nav a {
     margin: 10px 0;
-  }
-
-  footer {
-    padding: 20px;
   }
 }
