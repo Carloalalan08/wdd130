@@ -30,7 +30,7 @@ header {
   text-align: left;
   border-bottom: 1px solid white;
   background-color: var(--primary-color);
-  max-width: 1000px;
+  max-width: 100%
 }
 
 header img {
