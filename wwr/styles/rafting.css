@@ -111,6 +111,7 @@ section h2 {
 
 .guide-img {
   max-width: 840px;
+  height: auto;
   margin-right: 20px;
   border-radius: 8px;
 }
@@ -120,6 +121,7 @@ section h2 {
   font-size: 1.2rem;
   line-height: 1.6;
   text-align: left;
+  word-wrap: break-word;
 }
 
 /* RAFTING GALLERY */
