@@ -46,16 +46,17 @@ nav a:hover {
 .hero {
   position: relative;
   width: 100%;
-  height: 60vh;
+  height: 70vh; /* Increased height for better proportion */
+  background-image: url('images/hero.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 40px;
 }
 
 .hero h1 {
@@ -67,46 +68,48 @@ nav a:hover {
   transform: translateX(-50%);
 }
 
+/* EMPLOYEE IMAGE & TEXT BOX */
 .hero article {
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
   width: 60%;
-  transform: translateX(-50%);
+  max-width: 800px;
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 8px;
   text-align: left;
   color: var(--accent1-color);
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .hero article img {
-  float: right;
-  margin-left: 15px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
   border-radius: 8px;
-}
-
-/* CONTENT SECTIONS */
-article {
-  padding: 40px 30px;
-  background-color: white;
-  color: var(--accent1-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-section h2 {
-  font-family: var(--font-primary), serif;
-  font-size: 2.5rem;
-  margin-top: 40px;
-  color: var(--secondary-color);
+/* FLOATING SECTIONS */
+.float-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
 }
 
-section {
-  padding: 30px;
+.float-item {
+  width: 48%;
   background-color: var(--accent1-color);
   color: white;
-  margin: 20px 0;
-  border-radius: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.float-item h2 {
+  color: var(--secondary-color);
+  font-family: var(--font-primary), serif;
 }
 
 /* RAFTING IMAGES */
@@ -166,12 +169,24 @@ footer p {
     font-size: 2.5rem;
   }
 
-  header {
+  .hero article {
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    width: 80%;
   }
 
-  nav a {
-    margin: 10px 0;
+  .hero article img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+
+  .float-container {
+    flex-direction: column;
+  }
+
+  .float-item {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
