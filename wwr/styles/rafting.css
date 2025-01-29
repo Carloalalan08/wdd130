@@ -121,7 +121,7 @@ h2 {
 }
 
 .guide-img {
-  max-width: 840px;
+  max-width: 100%;
   height: auto;
   margin-right: 20px;
   border-radius: 8px;
