@@ -138,10 +138,11 @@ h2 {
 /* RAFTING GALLERY */
 .rafting-gallery {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
+  overflow-x: auto;
   gap: 20px;
   padding: 30px;
-  flex-wrap: wrap;
 }
 
 .rafting-gallery img {
