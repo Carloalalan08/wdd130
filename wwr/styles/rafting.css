@@ -19,6 +19,7 @@ body {
 
 header, footer, .grid {
   margin: 0 auto;
+  grid-template-columns: 120px 1fr 1fr;
   max-width: 1000px
 }
 
@@ -27,7 +28,7 @@ header {
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
   text-align: left;
-  border-bottom: 1px solid #E2CC5A;
+  border-bottom: 1px solid white;
   background-color: var(--primary-color);
   max-width: 1000px;
 }
@@ -113,7 +114,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  background-color: white;
+  background-color: #E2CC5A;
   color: var(--accent1-color);
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -217,7 +218,7 @@ main {
   }
 
   .rafting-gallery img {
-    max-width: 100%;
+    max-width: 50%
   }
 
   .hero {
@@ -238,9 +239,9 @@ main {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Moves the text up */
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(0); /* Returns the text to its original position */
+    transform: translateY(0);
   }
 }
