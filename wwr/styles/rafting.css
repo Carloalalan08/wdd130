@@ -233,3 +233,23 @@ aside {
     grid-template-columns: 1fr;
   }
 }
+
+@keyframes floatEffect {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Moves the text up */
+  }
+  100% {
+    transform: translateY(0); /* Returns the text to its original position */
+  }
+}
+
+section h2 {
+  animation: floatEffect 3s ease-in-out infinite; 
+}
+
+.rafting-gallery h2 {
+  animation: floatEffect 3s ease-in-out infinite; 
+}
