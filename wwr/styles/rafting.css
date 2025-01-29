@@ -46,7 +46,7 @@ nav a:hover {
 .hero {
   position: relative;
   width: 100%;
-  height: 50vh; /* Adjusted height for better proportion */
+  height: 50vh;  /* Reduced height for the hero image */
   background-size: cover;
   background-position: center;
   display: flex;
@@ -56,47 +56,34 @@ nav a:hover {
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  background-image: url('images/hero.jpg');
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 3rem;  /* Reduced font size for better balance */
   font-family: var(--font-primary), serif;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
 }
 
-/* EMPLOYEE IMAGE & TEXT BOX */
 .hero article {
   position: absolute;
   bottom: 10%;
   left: 50%;
-  width: 80%; /* Made it responsive */
-  max-width: 600px;
+  width: 60%;
   transform: translateX(-50%);
   background: rgba(255, 255, 255, 0.9);
   padding: 20px;
   border-radius: 8px;
   text-align: left;
   color: var(--accent1-color);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
 }
 
 .hero article img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
+  float: right;
+  margin-left: 15px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.hero article div {
-  max-width: 400px;
 }
 
 /* CONTENT SECTIONS */
@@ -122,35 +109,13 @@ section {
   border-radius: 10px;
 }
 
-/* FLOATING SECTIONS */
-.float-container {
+/* RAFTING IMAGES */
+.rafting-gallery {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
   padding: 30px;
-}
-
-.float-item {
-  width: 48%;
-  background-color: var(--accent1-color);
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.float-item h2 {
-  color: var(--secondary-color);
-  font-family: var(--font-primary), serif;
-}
-
-/* RAFTING IMAGES */
-.rafting-gallery {
-  display: grid;
-  grid-template-columns: 1fr; /* Single column for small screens */
-  gap: 20px;
-  padding: 30px;
+  flex-wrap: wrap; /* Wraps images in smaller screens */
 }
 
 .rafting-gallery img {
@@ -159,6 +124,7 @@ section {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 30%;  /* Ensures images stay in a row but are responsive */
 }
 
 /* FOOTER */
@@ -202,25 +168,24 @@ footer p {
     font-size: 2.5rem;
   }
 
-  .hero article {
-    width: 90%; /* Increased width for small screens */
-  }
-
-  .hero article img {
-    width: 100px;
-    height: 100px;
-  }
-
-  .float-container {
+  header {
     flex-direction: column;
-    gap: 15px;
+    align-items: flex-start;
   }
 
-  .float-item {
-    width: 100%;
+  nav a {
+    margin: 10px 0;
   }
 
-  .rafting-gallery {
-    grid-template-columns: 1fr; /* Ensures single column layout for images */
+  .rafting-gallery img {
+    max-width: 45%;  /* Adjust images for smaller screens */
+  }
+
+  .hero {
+    height: 40vh; /* Further adjust hero section height for mobile */
+  }
+
+  .hero h1 {
+    font-size: 2rem; /* Smaller heading on mobile */
   }
 }
