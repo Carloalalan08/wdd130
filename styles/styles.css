@@ -16,8 +16,7 @@ body {
 
 /* Navigation Styles */
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: #047699;
 }
 nav a {
     color: white;
@@ -28,7 +27,7 @@ nav a {
 
 /* Heading Styles */
 h1 {
-    color: darkblue;
+    color: #047699;
     text-align: center;
 }
 
