@@ -88,6 +88,7 @@ nav a:hover {
   left: 50%;
   transform: translateX(-50%);
   border-bottom: 2px solid white;
+  animation: floatEffect 3s ease-in-out infinite;
 }
 
 /* HISTORY SECTION */
