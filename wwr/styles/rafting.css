@@ -138,7 +138,7 @@ h2 {
 /* RAFTING GALLERY */
 .rafting-gallery {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   overflow-x: auto;
   gap: 20px;
