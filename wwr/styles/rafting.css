@@ -203,11 +203,6 @@ main {
   margin: 20px;
 }
 
-aside {
-  width: 20rem;
-  position: relative;
-}
-
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   .hero h1 {
@@ -216,16 +211,16 @@ aside {
 
   header {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start
   }
 
   nav a {
     margin: 10px 0;
-    align-items: center;
+    align-items: flex-start
   }
 
   .rafting-gallery img {
-    max-width: 45%;
+    max-width: 100%;
   }
 
   .hero {
