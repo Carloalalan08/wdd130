@@ -27,7 +27,7 @@ header {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: 120px 1fr 1fr;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid white;
   background-color: var(--primary-color);
   max-width: 100%
@@ -48,7 +48,7 @@ nav {
 nav a {
   display: block;
   padding: 0.5rem;
-  text-decoration: none;
+  text-decoration: bold;
   font-weight: bold;
   text-transform: uppercase;
   color: white;
