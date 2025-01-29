@@ -162,7 +162,7 @@ footer {
   color: white;
   text-align: center;
   align-items: center;
-  max-width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -199,7 +199,7 @@ footer p {
   grid-template-columns: 120px 1fr 1fr;
   gap: 20px;
   align-items: center;
-  max-width: 840px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
