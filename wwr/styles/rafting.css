@@ -114,7 +114,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  background-color: white;
+  background-color: #E2CC5A;
   color: var(--accent1-color);
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
