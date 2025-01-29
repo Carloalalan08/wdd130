@@ -90,16 +90,17 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
-/* HISTORY SECTION */
-section {
+/* COMMON SECTION STYLING */
+.section-style {
   padding: 30px;
   background-color: var(--accent1-color);
   color: white;
   margin: 20px 0;
   border-radius: 10px;
+  animation: floatEffect 3s ease-in-out infinite;
 }
 
-section h2 {
+.section-style h2 {
   font-family: var(--font-primary), serif;
   font-size: 2.5rem;
   margin-top: 40px;
@@ -147,115 +148,48 @@ section h2 {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 100%
 }
 
-/* FOOTER */
-footer {
-  padding: 30px;
-  background-color: var(--secondary-color);
-  color: white;
+.rafting-gallery figcaption {
   text-align: center;
-  align-items: center;
-  max-width: 100%;
-  margin: 0 auto;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 20px 30px;
+  color: white;
 }
 
 footer p {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 }
 
-/* SOCIAL MEDIA ICONS */
 .sociallinks {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
+  margin-top: 10px;
 }
 
 .sociallinks a {
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
-.sociallinks a:hover {
-  transform: scale(1.2);
+  margin: 0 10px;
 }
 
 .sociallinks img {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);
+  width: 30px;
+  height: auto;
 }
 
-/* GRID LAYOUT */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: 20px;
-  align-items: center;
-  max-width: 840px;
-  margin: 0 auto;
-}
-
-main {
-  margin: 20px;
-}
-
-aside {
-  width: 20rem;
-  position: relative;
-}
-
-/* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav a {
-    margin: 10px 0;
-    align-items: center;
-  }
-
-  .rafting-gallery img {
-    max-width: 45%;
-  }
-
-  .hero {
-    height: 40vh;
-  }
-
-  .hero h1 {
-    font-size: 2rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-
+/* Floating Animation */
 @keyframes floatEffect {
   0% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Moves the text up */
+    transform: translateY(-15px);
   }
   100% {
-    transform: translateY(0); /* Returns the text to its original position */
+    transform: translateY(0);
   }
-}
-
-section h2 {
-  animation: floatEffect 3s ease-in-out infinite; 
-}
-
-.rafting-gallery h2 {
-  animation: floatEffect 3s ease-in-out infinite; 
 }
