@@ -20,7 +20,7 @@ body {
 header, footer, .grid {
   margin: 0 auto;
   grid-template-columns: 1fr;
-  max-width: 1000px
+  max-width: 100%;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
   text-align: left;
   border-bottom: 1px solid white;
   background-color: var(--primary-color);
-  max-width: 1000px;
+  max-width: 100%;
 }
 
 header img {
@@ -163,7 +163,7 @@ footer {
   color: white;
   text-align: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -197,7 +197,7 @@ footer p {
 /* GRID LAYOUT */
 .grid {
   display: grid;
-  grid-template-columns: 120px 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 20px;
   align-items: center;
   max-width: 1000px;
