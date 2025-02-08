@@ -205,6 +205,15 @@ main {
   margin: 20px;
 }
 
+.employee-img {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensures the image fills the area without distortion */
+  border-radius: 50%; /* Optional: Makes the images circular */
+  display: block; /* Centers images inside the figure */
+  margin: 0 auto; /* Centers images horizontally */
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   header {
