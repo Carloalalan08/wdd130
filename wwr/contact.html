@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with White Water Rafting Company. Contact us for inquiries, reservations, and more!">
+    <meta name="author" content="Mon Carlo">
+    <title>Contact Us - White Water Rafting Company</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="White Water Rafting Logo" class="logo">
+        <nav>
+            <a href="https://carloalalan08.github.io/wdd130">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="grid">
+        <main>
+            <!-- Contact Information Section -->
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Address:</strong> 123 River Rapids Lane, Adventure City, ST 56789</p>
+                <p><strong>Phone:</strong> (555) 123-4567</p>
+                <p><strong>Email:</strong> contact@whiterafting.com</p>
+            </section>
+
+            <!-- Google Map Section -->
+            <section class="map">
+                <h2>Find Us</h2>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=YOUR_GOOGLE_MAPS_EMBED_LINK" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </section>
+
+            <!-- Employee Profiles Section -->
+            <section class="employees">
+                <h2>Meet Our Team</h2>
+                <figure>
+                    <img src="images/employee1.jpg" alt="John Doe - Lead Rafting Guide">
+                    <figcaption>John Doe - Lead Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Jane Smith - Customer Support">
+                    <figcaption>Jane Smith - Customer Support</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Mike Johnson - Safety Coordinator">
+                    <figcaption>Mike Johnson - Safety Coordinator</figcaption>
+                </figure>
+            </section>
+
+            <!-- Contact Form Section -->
+            <section class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of Your Message:</legend>
+                        <input type="radio" id="general" name="purpose" value="General Inquiry">
+                        <label for="general">General Inquiry</label>
+
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+
+                        <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                        <label for="website">Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <label>
+                        <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                    </label>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 White Water Rafting Company. Designed by Mon Carlo Alalan.</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x.png" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+        <p><a href="wireframes/contact-us-wireframe.png">View Wireframe</a></p>
+    </footer>
+</body>
+</html>
