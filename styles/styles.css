@@ -1,4 +1,13 @@
 /* Universal Selector */
+:root { 
+    --primary-color: #00A6C3;
+    --secondary-color: #047699;
+    --accent1-color: #1C455D;
+    --accent2-color: #E2CC5A;
+    --font-primary: 'Merriweather', serif;
+    --font-secondary: 'Roboto', sans-serif;
+  }
+
 * {
     margin: 0;
     padding: 0;
@@ -32,6 +41,7 @@ nav a {
 h1 {
     color: white;
     text-align: center;
+    font-family: var(--font-primary), serif;
 }
 
 /* Image Styles */
