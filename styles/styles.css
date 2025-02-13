@@ -50,7 +50,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px #E2CC5A;
+    box-shadow: 0 0 30px #1C455D;
 }
 
 /* Main Section */
@@ -58,7 +58,7 @@ main {
     max-width: 840px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #E2CC5A;
+    background-color: #047699;
     border-radius: 5px;
 }
 
