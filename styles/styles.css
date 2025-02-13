@@ -37,7 +37,7 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #E2CC5A;
     display: block;
     margin: 0 auto;
 }
@@ -50,7 +50,7 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px #E2CC5A;
 }
 
 /* Main Section */
@@ -75,7 +75,7 @@ p {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / .1);
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #047699;
     color: #000;
 }
 
@@ -97,7 +97,7 @@ aside h2 {
     top: 25%; /* Center vertically */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%); /* Adjust the exact positioning */
-    color: white;
+    color: #047699;
     font-size: 1rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
