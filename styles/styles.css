@@ -86,7 +86,7 @@ p {
 .temple {
     max-width: 900px;
     margin: 40px auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background: linear-gradient(to bottom, #047699, #00A6C3); /* Warm gradient */
     border-radius: 10px;
