@@ -17,6 +17,8 @@ body {
 /* Navigation Styles */
 nav {
     background-color: #047699;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
 }
 nav a {
     color: white;
