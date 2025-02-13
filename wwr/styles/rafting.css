@@ -156,7 +156,7 @@ h2 {
 /* FOOTER */
 footer {
   padding: 30px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: white;
   text-align: center;
   align-items: center;
