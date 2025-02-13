@@ -88,7 +88,7 @@ p {
     margin: 40px auto;
     padding: 20px;
     text-align: center;
-    background: linear-gradient(to bottom, #D5B29C, #F6EEE1); /* Warm gradient */
+    background: linear-gradient(to bottom, #047699, #00A6C3); /* Warm gradient */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
