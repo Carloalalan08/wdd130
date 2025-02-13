@@ -123,9 +123,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid white;
     background-color: #047699;
-    display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center; /* Centers content vertically */
+    display: block;
     height: 50px;
 }
 
@@ -135,4 +133,5 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px white(0, 0, 0, 0.5);
+    text-align: center;
 }
