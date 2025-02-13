@@ -134,4 +134,5 @@ footer {
     font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
+    text-shadow: 1px 1px 2px white(0, 0, 0, 0.5);
 }
