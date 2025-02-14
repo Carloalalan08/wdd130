@@ -112,13 +112,13 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 25%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Adjust the exact positioning */
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px white (0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px white;
 }
 
 /* Footer Styles */
@@ -135,6 +135,6 @@ footer {
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px white(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 2px white;
     text-align: center;
 }
