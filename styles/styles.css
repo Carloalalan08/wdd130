@@ -118,7 +118,6 @@ aside h2 {
     color: white;
     font-size: 1rem;
     font-weight: bold;
-    text-shadow: 2px 2px 4px white;
 }
 
 /* Footer Styles */
@@ -135,6 +134,5 @@ footer {
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
-    text-shadow: 1px 1px 2px white;
     text-align: center;
 }
