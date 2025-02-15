@@ -294,7 +294,6 @@ main {
 .trip {
   flex: 1;
   border-radius: 10px;
-  color: var(--primary-color);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 15px;
 }
@@ -302,7 +301,6 @@ main {
 .trips-table {
   margin-top: 40px;
   text-align: center;
-  color: var(--secondary-color);
 }
 
 tr:nth-child(even) {
@@ -311,7 +309,7 @@ tr:nth-child(even) {
 
 th, td {
   padding: 10px;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 table {
