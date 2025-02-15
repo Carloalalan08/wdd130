@@ -147,7 +147,7 @@ h2 {
 .section-title {
   text-align: center;
   font-size: 2em;
-  margin-bottom: 20px; /* Adds space between title and content */
+  margin-bottom: 10;
 }
 
 .grid-layout {
