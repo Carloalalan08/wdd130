@@ -186,7 +186,7 @@ body {
 section {
   padding: 30px;
   background-color: var(--accent1-color);
-  color: #FEE8AF;
+  color: white;
   margin: 20px 0;
   border-radius: 10px;
 }
@@ -260,16 +260,16 @@ main {
 iframe {
   width: 600px;
   height: 450px;
-  border: none; /* Removes the inset border */
+  border: 2px solid var(--secondary-color);
 }
 
 .employee-img {
-  width: 150px; /* Set a fixed width */
-  height: 150px; /* Set a fixed height */
-  object-fit: cover; /* Ensures the image fills the area without distortion */
-  border-radius: 50%; /* Optional: Makes the images circular */
-  display: block; /* Centers images inside the figure */
-  margin: 0 auto; /* Centers images horizontally */
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .cta {
