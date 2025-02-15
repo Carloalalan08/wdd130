@@ -257,6 +257,12 @@ main {
   border: 2px solid var(--secondary-color);
 }
 
+iframe {
+  width: 600px;
+  height: 450px;
+  border: none; /* Removes the inset border */
+}
+
 .employee-img {
   width: 150px; /* Set a fixed width */
   height: 150px; /* Set a fixed height */
