@@ -186,7 +186,7 @@ body {
 section {
   padding: 30px;
   background-color: var(--accent1-color);
-  color: white;
+  color: #FEE8AF;
   margin: 20px 0;
   border-radius: 10px;
 }
