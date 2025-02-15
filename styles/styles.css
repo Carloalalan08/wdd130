@@ -96,6 +96,7 @@ p {
     text-align: center;
     background: var(--primary-color);
     border-radius: 10px;
+    border: 1px solid white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
