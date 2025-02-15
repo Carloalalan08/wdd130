@@ -161,6 +161,20 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
+.trip img {
+  width: 100%;
+  max-width: 400px;  /* Adjust the max width as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* Center image and add space below */
+}
+
+.trip p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #333;
+}
+
 /* HISTORY SECTION */
 section {
   padding: 30px;
