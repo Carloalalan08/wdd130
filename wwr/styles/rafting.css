@@ -272,7 +272,7 @@ main {
 }
 
 .cta .btn {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   color: white;
   padding: 15px 30px;
   text-decoration: none;
