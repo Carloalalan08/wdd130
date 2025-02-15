@@ -102,14 +102,13 @@ nav a:hover {
   font-family: var(--font-primary), serif;
   position: absolute;
   top: 10%;
-  left: 50%;
   transform: translateX(-50%);
   border-bottom: 2px solid white;
 }
 
 /* Newsletter Section */
 .newsletter {
-  background-color: #E2CC5A;
+  background-color: #047699;
   padding: 20px;
   text-align: center;
 }
