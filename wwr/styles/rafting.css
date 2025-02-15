@@ -106,6 +106,14 @@ nav a:hover {
   border-bottom: 2px solid white;
 }
 
+h2 {
+  font-family: var(--font-primary), serif;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #FEE8AF;
+  animation: floatEffect 3s ease-in-out infinite;
+}S
+
 /* Newsletter Section */
 .newsletter {
   background-color: var(--accent1-color);
@@ -181,14 +189,6 @@ section {
   color: white;
   margin: 20px 0;
   border-radius: 10px;
-}
-
-h2 {
-  font-family: var(--font-primary), serif;
-  font-size: 2.5rem;
-  margin-top: 40px;
-  color: #FEE8AF;
-  animation: floatEffect 3s ease-in-out infinite;
 }
 
 /* GUIDE ARTICLE SECTION */
