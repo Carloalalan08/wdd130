@@ -100,7 +100,7 @@ p {
 }
 
 a {
-    color: white; /* Change to your preferred color */
+    color: var(--accent1-color);
 }
 
 /* Aside Styles */
