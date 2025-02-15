@@ -196,7 +196,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   padding: 30px;
-  background-color: #047699;
+  background-color: var(--primary-color);
   color: var(--accent1-color);
   margin: 20px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
