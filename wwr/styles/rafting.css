@@ -254,7 +254,7 @@ main {
   width: 100%;
   max-width: 600px;
   height: 450px;
-  border: white;
+  border: var(--secondary-color);
 }
 
 .employee-img {
@@ -272,7 +272,7 @@ main {
 }
 
 .cta .btn {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   color: white;
   padding: 15px 30px;
   text-decoration: none;
