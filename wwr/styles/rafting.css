@@ -135,12 +135,11 @@ h2 {
   background-color: #1C455D;
   text-align: center;
   padding: 20px;
-  color: white;
 }
 .cta a {
-  color: #FEE8AF;
+  color: white;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* Grid Layout for Images and Content */
