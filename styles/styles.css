@@ -94,10 +94,13 @@ p {
     margin: 40px auto;
     padding: 20px;
     text-align: center;
-    
     background: #C3DAD6;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: white; /* Change to your preferred color */
 }
 
 /* Aside Styles */
