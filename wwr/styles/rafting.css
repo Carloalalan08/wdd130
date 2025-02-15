@@ -1,6 +1,6 @@
 :root { 
   --primary-color: #3A3F3A;
-  --secondary-color: #047699;
+  --secondary-color: #00A6C3;
   --accent1-color: #1C455D;
   --accent2-color: #E2CC5A;
   --font-primary: 'Merriweather', serif;
@@ -156,7 +156,7 @@ body {
   font-family: var(--font-secondary), sans-serif;
   margin: 0;
   padding: 0;
-  background-color: var(--accent1-color);
+  background-color: var(--secondary-color);
   color: white;
 }
 
