@@ -236,45 +236,6 @@ h2 {
   max-width: 100%
 }
 
-/* FOOTER */
-footer {
-  padding: 30px;
-  background-color: var(--primary-color);
-  color: white;
-  border-top: 1px solid white;
-  text-align: center;
-  align-items: center;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-footer p {
-  font-size: 1.2rem;
-}
-
-/* SOCIAL MEDIA ICONS */
-.sociallinks {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-
-.sociallinks a {
-  text-decoration: none;
-  transition: transform 0.3s ease;
-}
-
-.sociallinks a:hover {
-  transform: scale(1.2);
-}
-
-.sociallinks img {
-  width: 40px;
-  height: 40px;
-  filter: brightness(0) invert(1);
-}
-
 /* GRID LAYOUT */
 .grid {
   display: grid;
@@ -354,6 +315,45 @@ th, td {
 table {
   width: 100%;
   border-collapse: collapse;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  background-color: var(--primary-color);
+  color: white;
+  border-top: 1px solid white;
+  text-align: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+/* SOCIAL MEDIA ICONS */
+.sociallinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.sociallinks a {
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.sociallinks a:hover {
+  transform: scale(1.2);
+}
+
+.sociallinks img {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
 }
 
 /* RESPONSIVE DESIGN */
