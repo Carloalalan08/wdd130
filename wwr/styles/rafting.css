@@ -222,6 +222,57 @@ main {
   margin: 0 auto; /* Centers images horizontally */
 }
 
+.cta {
+  text-align: center;
+  padding: 20px;
+}
+
+.cta .btn {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta .btn:hover {
+  background-color: var(--secondary-color);
+}
+
+.trip-descriptions {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.trip {
+  flex: 1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.trips-table {
+  margin-top: 40px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: var(--accent1-color);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
   header {
